@@ -1,0 +1,8 @@
+{
+  "appId": "com-anchal",
+  "appName": "ionic-angular",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

@@ -18,4 +18,16 @@ export class RecipesPage implements OnInit {
     console.log('all Recipes:', this.recipes)
   }
 
+  ionViewWillEnter(){
+    console.log('IonViewWillEnter')
+  }
+  ionViewDidEnter(){
+    console.log('IonViewDidEnter')
+  }
+  ionViewWillLeave(){
+    console.log('IonViewWillLeave')
+  }
+  ionViewDidLeave(){
+    console.log('IonViewDidLeave')
+  }
 }
